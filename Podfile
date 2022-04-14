@@ -15,8 +15,4 @@ target 'PunchCardDemo' do
     # Pods for testing
   end
   
-  target 'PunchCardDemoUITests' do
-    # Pods for testing
-  end
-  
 end

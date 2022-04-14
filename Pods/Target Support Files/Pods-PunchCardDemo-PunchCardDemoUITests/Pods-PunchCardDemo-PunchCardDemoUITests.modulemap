@@ -1,6 +1,0 @@
-framework module Pods_PunchCardDemo_PunchCardDemoUITests {
-  umbrella header "Pods-PunchCardDemo-PunchCardDemoUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
