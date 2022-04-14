@@ -1,0 +1,45 @@
+{
+  "name": "PunchCard",
+  "version": "0.0.1",
+  "summary": "Punch card record manager.",
+  "homepage": "https://github.com/yangKJ/PunchCardDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Condy": "ykj310@126.com"
+  },
+  "source": {
+    "git": "https://github.com/yangKJ/PunchCard.git",
+    "tag": "0.0.1"
+  },
+  "module_name": "PunchCard",
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "subspecs": [
+    {
+      "name": "Manager",
+      "source_files": "Sources/Manager/*.swift",
+      "dependencies": {
+        "WCDB.swift": [
+
+        ]
+      }
+    },
+    {
+      "name": "PunchCard",
+      "source_files": "Sources/PunchCard/*.swift",
+      "dependencies": {
+        "PunchCard/Manager": [
+
+        ]
+      }
+    }
+  ],
+  "swift_version": "5.0"
+}

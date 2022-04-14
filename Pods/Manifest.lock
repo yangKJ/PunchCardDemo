@@ -1,0 +1,37 @@
+PODS:
+  - PunchCard (0.0.1):
+    - PunchCard/Manager (= 0.0.1)
+    - PunchCard/PunchCard (= 0.0.1)
+  - PunchCard/Manager (0.0.1):
+    - WCDB.swift
+  - PunchCard/PunchCard (0.0.1):
+    - PunchCard/Manager
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDB.swift (1.0.8.2):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
+
+DEPENDENCIES:
+  - PunchCard (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - SQLiteRepairKit
+    - WCDB.swift
+    - WCDBOptimizedSQLCipher
+
+EXTERNAL SOURCES:
+  PunchCard:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  PunchCard: 90fa1e55fa2d817405be5931f0278db5a239b997
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  WCDB.swift: 05d509d7a0e60fb6e11c34eb7e4027c0fab5849f
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
+
+PODFILE CHECKSUM: 2b2855049dd8f6cc89a67600df34564489fd38a6
+
+COCOAPODS: 1.11.3

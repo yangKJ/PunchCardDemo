@@ -1,0 +1,6 @@
+framework module PunchCard {
+  umbrella header "PunchCard-umbrella.h"
+
+  export *
+  module * { export * }
+}
